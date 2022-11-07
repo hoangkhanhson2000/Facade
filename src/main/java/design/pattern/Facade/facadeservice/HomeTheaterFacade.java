@@ -1,4 +1,6 @@
-package design.pattern.Facade;
+package design.pattern.Facade.facadeservice;
+
+import design.pattern.Facade.media.*;
 
 public class HomeTheaterFacade {
 	Amplifier amp;
@@ -40,6 +42,7 @@ public class HomeTheaterFacade {
 		amp.on();
 		amp.setDvd(dvd);
 		amp.setCd(cd);
+
 		amp.setSurroundSound();
 		amp.setVolume(5);
 		dvd.on();

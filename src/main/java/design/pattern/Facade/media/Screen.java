@@ -1,4 +1,4 @@
-package design.pattern.Facade;
+package design.pattern.Facade.media;
 
 public class Screen {
 	String description;
